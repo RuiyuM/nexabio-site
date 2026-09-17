@@ -1,0 +1,58 @@
+{
+  "institution": "The University of Texas at Dallas",
+  "headline": "Building a next-generation AI biomaterials workforce.",
+  "introduction": "NEXABio brings together artificial intelligence, biomaterials, and computational research. Our CyberTraining pilot prepares undergraduate and graduate students to apply data-driven methods to the discovery and design of biomaterials.",
+  "overview": "Through workshops, a summer bootcamp, and invited talks, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",
+  "facts": [
+    { "label": "Audience", "value": "Undergraduate & graduate students" },
+    { "label": "Focus", "value": "AI + biomaterials" },
+    { "label": "Activities", "value": "Workshops, bootcamp & talks" },
+    { "label": "Host institution", "value": "UT Dallas" }
+  ],
+  "activities": [
+    { "title": "CyberTraining Workshops", "format": "In person · Every other week", "description": "Short lectures, guided coding exercises, and team-based mini-projects build computational skills progressively. Students work with real biomaterials datasets and connect AI methods with experimental questions." },
+    { "title": "Summer Bootcamp", "format": "Online · 10-day program", "description": "An intensive introduction to AI-enabled biomaterials research, with practical exercises in scientific programming, machine learning, and computing workflows. Collaborative projects conclude with student presentations." },
+    { "title": "Invited Talks", "format": "In person or online · Every other week", "description": "Researchers share developments in AI-driven biomaterials design, polymer discovery, drug delivery, and regenerative medicine. Discussions connect current research with workshop and bootcamp activities." }
+  ],
+  "timeline": [
+    { "activity": "CyberTraining Workshops", "timing": "Fall 2026 and Fall 2027 (proposed)", "format": "In person at UT Dallas" },
+    { "activity": "Invited Talks", "timing": "Spring 2027 and Spring 2028 (proposed)", "format": "In person or online" },
+    { "activity": "Summer Bootcamp", "timing": "Summer 2027 and Summer 2028 (proposed)", "format": "Online" }
+  ],
+  "curriculumIntroduction": "The proposed workshop curriculum progresses from foundations to practical research workflows. Topics combine AI methods with the chemical, physical, and biological questions that shape biomaterials design.",
+  "curriculum": [
+    { "title": "Foundations of AI-driven biomaterials", "description": "Biomaterials data, machine learning pipelines, and data preparation." },
+    { "title": "Structure–property prediction", "description": "Supervised learning, model evaluation, and benchmarking." },
+    { "title": "Deep learning and multimodal data", "description": "Neural networks for imaging, spectroscopy, and combined data sources." },
+    { "title": "Trustworthy and interpretable AI", "description": "Explainability, uncertainty quantification, and robustness." },
+    { "title": "AI-driven biomaterials design", "description": "Active learning, Bayesian optimization, and closed-loop design." },
+    { "title": "Generative modeling", "description": "Generative models for exploring candidate biomaterial structures." },
+    { "title": "Computing for biomaterials research", "description": "High-performance computing, job scheduling, and cloud workflows." },
+    { "title": "Uncertainty-aware optimization", "description": "Probabilistic modeling and design under uncertainty." },
+    { "title": "Deployment and reproducibility", "description": "Containers, workflow automation, and reproducible model pipelines." },
+    { "title": "Student mini-project presentations", "description": "Communicating methods, results, limitations, and research insights." }
+  ],
+  "projects": "Example projects include predicting drug and gene delivery properties, selecting candidate monomers for material design, and assessing the reliability of model predictions using open biomaterials datasets.",
+  "application": {
+    "status": "Recruitment details pending",
+    "audience": "The program is designed for undergraduate and graduate students in bioengineering, computer science, materials science, chemistry, and related fields. Participation is intended to include students at UT Dallas and other institutions.",
+    "experience": "Students with different levels of computational experience are encouraged to explore the program. Final prerequisites and eligibility requirements will be published with the application.",
+    "fields": ["Academic background and current institution", "Research interests and learning goals", "Prior computational or biomaterials experience", "Motivation and availability to participate"],
+    "details": [
+      { "label": "Application opens", "value": "To be announced" },
+      { "label": "Application deadline", "value": "To be announced" },
+      { "label": "Cohort size", "value": "To be confirmed" },
+      { "label": "Fees and participant support", "value": "To be confirmed" }
+    ],
+    "formUrl": ""
+  },
+  "team": [
+    { "name": "Yunhui Guo", "role": "Principal Investigator", "department": "Department of Computer Science", "focus": "Machine learning methods, computational infrastructure, model evaluation, and reproducible workflows for biomaterials research." },
+    { "name": "Yongsheng Gao", "role": "Co-Principal Investigator", "department": "Department of Bioengineering", "focus": "Biomaterials fundamentals, experimental design, polymer science, and integration of AI methods with experimental insights." }
+  ],
+  "contactEmail": "",
+  "resources": {
+    "description": "The project plans to share instructional materials, computational notebooks, dataset references, and reproducible workflows to support learning during the program and adoption by other institutions.",
+    "repositoryUrl": "https://github.com/RuiyuM/nexabio-site"
+  }
+}
