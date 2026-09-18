@@ -6,7 +6,9 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "predev": "node scripts/sync-downloads.mjs",
     "dev": "vinext dev",
+    "prebuild": "node scripts/sync-downloads.mjs",
     "build": "vinext build && node scripts/prepare-pages.mjs",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "oxlint",

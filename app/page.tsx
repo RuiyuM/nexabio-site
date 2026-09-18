@@ -1,7 +1,7 @@
 import program from '@/content/program.json';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
-const navigation = [['overview', 'Overview'], ['program', 'Program'], ['curriculum', 'Curriculum'], ['apply', 'Apply'], ['team', 'Team'], ['resources', 'Resources']];
+const navigation = [['overview', 'Overview'], ['program', 'Program'], ['curriculum', 'Curriculum'], ['apply', 'Participate'], ['team', 'Team'], ['resources', 'Resources']];
 
 export default function Home() {
   return (
@@ -31,8 +31,8 @@ export default function Home() {
           <div className="project-note"><h3>Learn through hands-on projects</h3><p>{program.projects}</p></div>
         </div></section>
         <section id="apply" className="content-section section-anchor"><div className="container application-grid">
-          <div><p className="eyebrow section-label">Participation</p><h2>Who should apply?</h2><p>{program.application.audience}</p><p>{program.application.experience}</p><h3 className="subheading">What the application will ask</h3><ul className="plain-list">{program.application.fields.map(field => <li key={field}>{field}</li>)}</ul></div>
-          <aside className="application-panel" aria-labelledby="application-heading"><span className="status-label">{program.application.status}</span><h3 id="application-heading">Application information</h3><dl>{program.application.details.map(item => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>{program.application.formUrl ? <a className="primary-link" href={program.application.formUrl}>Open application form <span aria-hidden="true">↗</span></a> : <p className="application-message">The application form will be available here once recruitment details are finalized.</p>}</aside>
+          <div><p className="eyebrow section-label">Participation</p><h2>Interested in taking part?</h2><p>{program.application.audience}</p><p>{program.application.experience}</p><h3 className="subheading">What the interest form asks</h3><ul className="plain-list">{program.application.fields.map(field => <li key={field}>{field}</li>)}</ul><p className="note">12 questions, about 3-5 minutes. Sharing your interest does not confirm enrollment.</p></div>
+          <aside className="application-panel" aria-labelledby="application-heading"><span className="status-label">{program.application.status}</span><h3 id="application-heading">Program participation</h3><dl>{program.application.details.map(item => <div key={item.label}><dt>{item.label}</dt><dd>{item.value}</dd></div>)}</dl>{program.application.formUrl ? <a className="primary-link" href={program.application.formUrl}>Open student interest form <span aria-hidden="true">↗</span></a> : <p className="application-message">The student interest form will be available here once prepared.</p>}</aside>
         </div></section>
         <section id="team" className="content-section team-section section-anchor"><div className="container">
           <p className="eyebrow section-label">Project team</p><h2>Connecting computing and bioengineering</h2>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className="contact-line"><h3>Contact</h3>{program.contactEmail ? <a href={`mailto:${program.contactEmail}`}>{program.contactEmail}</a> : <p>Program contact details will be added before applications open.</p>}</div>
         </div></section>
         <section id="resources" className="content-section section-anchor"><div className="container resources-grid">
-          <div><p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p><p className="note">Teaching materials are in preparation. Links will be added as they become available.</p></div>
+          <div><p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p><p className="note">Teaching materials are in preparation. Links will be added as they become available.</p><h3 className="subheading">Student interest poster</h3><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pdf" download>Download the poster (PDF)</a></p><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pptx" download>Edit the poster (PowerPoint)</a></p></div>
           <aside className="repository-panel"><h3>Project collaboration</h3><p>Website drafts and project materials are maintained on GitHub.</p><a className="text-link" href={program.resources.repositoryUrl}>View the GitHub repository <span aria-hidden="true">↗</span></a><p className="note">The draft repository is private. Invited collaborators can sign in to access it.</p></aside>
         </div></section>
       </main>

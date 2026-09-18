@@ -39,3 +39,8 @@ next-env.d.ts
 
 # local type-check cache
 *.tsbuildinfo
+
+# private artifact build files
+/.poster-build/
+/.codex-finalizer/
+/public/downloads/
