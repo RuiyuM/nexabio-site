@@ -6,7 +6,7 @@ A simple English website for the NEXABio CyberTraining pilot at The University o
 
 ## Website and content
 
-- GitHub Pages address after deployment: https://ruiyum.github.io/nexabio-site/
+- Website: https://ruiyum.github.io/nexabio-site/
 - Main content: [`content/program.json`](content/program.json)
 - Page sections and labels: [`app/page.tsx`](app/page.tsx)
 - Appearance and responsive layout: [`app/globals.css`](app/globals.css)
@@ -27,7 +27,7 @@ The page includes an overview, training activities, a proposed timeline, ten wor
 
 多数文字集中在 `content/program.json`，参与者可以在 GitHub 网页中编辑。菜单与固定提示文字在 `app/page.tsx`。建议提交修改请求（Pull Request），由项目负责人检查后合并。
 
-合并到 `main` 后，GitHub Actions 会重新生成静态网站；启用 Pages 后才能发布。仅保存到其他分支不会更新线上页面。网站即使写着 Draft，在 GitHub Pages 发布后也可以被知道网址的人访问；请只提交可以公开的网页内容。
+合并到 `main` 后，GitHub Actions 会重新生成静态网站并发布到 GitHub Pages。仅保存到其他分支不会更新线上页面。网站与仓库均公开；请只提交可以公开的网页内容。
 
 ## Run locally
 
@@ -50,7 +50,7 @@ The deployable website is generated in `dist/client/`. GitHub Pages serves only 
 
 In repository Settings → Pages, select GitHub Actions. The workflow in `.github/workflows/pages.yml` builds and publishes pushes to `main`, and can also be run manually from Actions. A failed build does not replace the current website. There is no automatic publication to another hosting provider.
 
-Hosting is GitHub Pages only. The build creates a static artifact and normalizes its paths for GitHub's repository subdirectory. The repository is currently private; GitHub rejected enabling Pages under the current account plan. The website is not yet publicly hosted. Publishing requires an owner-approved visibility change or an account plan that supports Pages for a private repository.
+Hosting is GitHub Pages only. The build creates a static artifact and normalizes its paths for GitHub's repository subdirectory. The owner approved making this repository public and enabling Pages. Anyone can view the source and project materials; direct editing still requires collaborator access. Google Form editor access is managed separately.
 
 ## Before official recruitment
 
