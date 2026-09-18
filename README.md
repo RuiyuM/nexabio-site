@@ -35,4 +35,6 @@ The deployable website is generated in `dist/client/`. GitHub Pages serves only 
 
 In repository Settings → Pages, select GitHub Actions. The workflow in `.github/workflows/pages.yml` builds and publishes pushes to `main`, and can also be run manually from Actions. A failed build does not replace the current website. There is no automatic publication to another hosting provider.
 
+Publishing checks exported files and links, not specific wording. Editors can change or remove draft notices and other page text without updating the publishing script.
+
 Hosting is GitHub Pages only. The build creates a static artifact and normalizes its paths for GitHub's repository subdirectory. The owner approved making this repository public and enabling Pages. Anyone can view the source and project materials; direct editing still requires collaborator access. Google Form editor access is managed separately.
