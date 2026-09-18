@@ -1,8 +1,4 @@
-# NEXABio website draft
-
-A simple English website for the NEXABio CyberTraining pilot at The University of Texas at Dallas. Content is adapted from the project team's NSF_CyberTraining.pdf. The FAU site was used only as an information-structure reference.
-
-**Status:** Draft for review. Recruitment details and formal funding acknowledgment need confirmation. This repository contains website materials, not the original proposal or applicant data.
+# NEXABio website
 
 ## Website and content
 
@@ -17,19 +13,6 @@ A simple English website for the NEXABio CyberTraining pilot at The University o
 
 The current website and poster focus on CyberTraining Workshops. The page includes an overview, workshop format, a proposed workshop timeline, ten workshop topics, participation information, project team, and learning resources. A live student interest form is connected; this is not a formal admission application. The contact email remains pending.
 
-## 问卷与海报
-
-- [填写学生意向问卷](https://forms.gle/13iPUM7vkB7HX4tK8)：学校、专业、预计毕业时间、科研兴趣和展望等，共 12 题。
-- [问卷协作说明](forms/README.md)、[题目](forms/questions.md)、[数据字典](forms/data-dictionary.md)。
-- [可编辑海报 PPTX](poster/NEXABio-student-interest.pptx)、[打印版 PDF](poster/NEXABio-student-interest.pdf)、[海报编辑说明](poster/README.md)。
-
-问卷题库和海报文件在 GitHub 维护；在线填写与回答保存在 Google Forms。两边编辑权限分别授予。GitHub 题库修改不会自动更新在线问卷。
-
-## 本次草稿的维护方式
-
-多数文字集中在 `content/program.json`，参与者可以在 GitHub 网页中编辑。菜单与固定提示文字在 `app/page.tsx`。建议提交修改请求（Pull Request），由项目负责人检查后合并。
-
-合并到 `main` 后，GitHub Actions 会重新生成静态网站并发布到 GitHub Pages。仅保存到其他分支不会更新线上页面。网站与仓库均公开；请只提交可以公开的网页内容。
 
 ## Run locally
 
