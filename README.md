@@ -36,9 +36,3 @@ The deployable website is generated in `dist/client/`. GitHub Pages serves only 
 In repository Settings → Pages, select GitHub Actions. The workflow in `.github/workflows/pages.yml` builds and publishes pushes to `main`, and can also be run manually from Actions. A failed build does not replace the current website. There is no automatic publication to another hosting provider.
 
 Hosting is GitHub Pages only. The build creates a static artifact and normalizes its paths for GitHub's repository subdirectory. The owner approved making this repository public and enabling Pages. Anyone can view the source and project materials; direct editing still requires collaborator access. Google Form editor access is managed separately.
-
-## Before official recruitment
-
-The project owner has confirmed compensation for students with confirmed program registration. Confirm the amount and payment details, dates, cohort size, eligibility, program fees, contact email, and funding acknowledgment. The current form collects expressions of interest only. Then review the draft banner and indexing settings. `noindex` is a search-engine request, not access control.
-
-The team should choose a license before broadly distributing curriculum or code. No project license has been inferred from the proposal.
