@@ -43,7 +43,7 @@
   ],
   "projects": "Example projects include predicting drug and gene delivery properties, selecting candidate monomers for material design, and assessing the reliability of model predictions using open biomaterials datasets.",
   "application": {
-    "status": "Student interest form available",
+    "status": "",
     "audience": "The program is designed for undergraduate and graduate students in bioengineering, computer science, materials science, chemistry, and related fields. Participation is intended to include students at UT Dallas and other institutions.",
     "experience": "Students with different levels of computational experience are encouraged to explore the program. Final prerequisites and eligibility requirements will be published with the application.",
     "fields": ["Institution, major, and current degree level", "Expected graduation year and term", "Research interests, experience, and learning goals", "An optional short research outlook"],
