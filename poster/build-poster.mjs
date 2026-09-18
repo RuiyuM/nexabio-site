@@ -41,7 +41,7 @@ text(copy.intro,48,290,720,46,18,'#FFFFFF');
 
 text(copy.audienceHeading,48,375,444,60,24,green,true);
 text(copy.audience,48,444,444,106,18,muted);
-slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'poster/ai-biomaterials.png'))),contentType:'image/png',alt:'2D concept illustration of a polymer scaffold, a molecular chain, and a drug-delivery carrier beside a cell membrane.',fit:'contain',position:{left:524,top:366,width:244,height:183}});
+slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'public/images/student-collaboration.png'))),contentType:'image/png',alt:'Illustration of three students collaborating around a laptop and a biomaterial scaffold model.',fit:'contain',position:{left:524,top:366,width:244,height:183}});
 text(copy.imageCaption,524,555,244,17,11,muted);
 
 text(copy.activitiesHeading,48,580,720,30,24,green,true);
@@ -65,13 +65,13 @@ text(copy.ctaNote,48,1000,720,16,12,muted);
 text(copy.footer,48,1020,720,16,12,muted);
 
 slide.speakerNotes.textFrame.setText([
-  'NEXABio student recruitment draft. US Letter portrait. The selected polymer-loop logo, scientific illustration, and QR are separate images; body text remains editable.',
+  'NEXABio student recruitment draft. US Letter portrait. The selected polymer-loop logo, student collaboration illustration, and QR are separate images; body text remains editable.',
   'Content: supplied NSF_CyberTraining.pdf and content/program.json. The original proposal is private and is not included in this repository.',
   copy.team,
   'Dates, eligibility, funding acknowledgment, and participant support are unconfirmed. No award, stipend, or enrollment guarantee is made.',
   'Form: '+links.responderUrl,
   'Brand: user-selected concept B, polymer loops. Logo source and usage: public/brand/README.md.',
-  'Illustration: original AI-generated concept art, not an experimental result or a scientifically validated molecular model. Image: poster/ai-biomaterials.png. Prompt and provenance: public/images/README.md and public/images/ai-biomaterials-prompt.txt.',
+  'Illustration: three fictional students collaborating on AI and biomaterials, selected by the project owner. Generated with the built-in imagegen tool on September 18, 2026. Original PNG shared with the website: public/images/student-collaboration.png. Exact prompt: public/images/student-collaboration-prompt.txt. Provenance: public/images/README.md. This is an illustration, not a photograph of actual participants or faculty.',
   'Editing instructions: poster/README.md. Changing the target form requires regenerating and replacing the QR image.',
 ].join('\n'));
 await (await PresentationFile.exportPptx(presentation)).save(path.join(out,'candidate.pptx'));

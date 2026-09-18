@@ -11,10 +11,10 @@ The project owner requested the faculty photographs from their UT Dallas pages. 
 
 ## Concept illustration
 
-`ai-biomaterials.webp` is the user-selected 2D cartoon concept C: polymer structure and drug delivery. It was generated with the built-in imagegen tool on September 18, 2026. The matching original PNG is stored at `poster/ai-biomaterials.png` and is embedded in the editable recruitment poster. It is not a photograph, experimental result, or scientifically validated molecular model. The page labels it as a conceptual illustration. The exact generation prompt is recorded in `ai-biomaterials-prompt.txt`.
+`ai-biomaterials.webp` is the user-selected 2D cartoon concept C: polymer structure and drug delivery, used as the website hero illustration. It was generated with the built-in imagegen tool on September 18, 2026. The matching original PNG is stored at `poster/ai-biomaterials.png`. It is not a photograph, experimental result, or scientifically validated molecular model. The page labels it as a conceptual illustration. The exact generation prompt is recorded in `ai-biomaterials-prompt.txt`.
 
 ## Student collaboration illustration
 
-`student-collaboration.webp` shows three fictional university students collaborating on AI and biomaterials. The user selected this previously generated 2D cartoon for the program introduction. The original is `student-collaboration.png`; the exact built-in imagegen prompt is recorded in `student-collaboration-prompt.txt`. Generated on September 18, 2026. It is an illustration, not a photograph of actual participants or faculty.
+`student-collaboration.webp` shows three fictional university students collaborating on AI and biomaterials. The user selected this previously generated 2D cartoon for the program introduction and recruitment poster. The original `student-collaboration.png` is embedded in the editable poster; the exact built-in imagegen prompt is recorded in `student-collaboration-prompt.txt`. Generated on September 18, 2026. It is an illustration, not a photograph of actual participants or faculty.
 
 To change an image or a faculty profile link, edit `content/program.json`. Keep images in this folder and preserve the `/nexabio-site/` prefix in website paths.
