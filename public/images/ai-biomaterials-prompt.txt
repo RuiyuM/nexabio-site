@@ -1,0 +1,10 @@
+Use case: scientific-educational
+Asset type: original hero illustration for an academic AI and biomaterials CyberTraining website.
+Primary request: Create exactly one clean scientific editorial 3D conceptual illustration of a porous polymer scaffold / hydrogel network. Several polymer chains appear as smooth linked beads woven through and around the porous teal scaffold. A small warm copper-orange region suggests a drug-delivery carrier. A few subtle computational node connections emerge at one edge.
+Scene/backdrop: light warm neutral studio background, uncluttered and softly grounded with natural shadows.
+Style/medium: refined 3D scientific editorial illustration, precise materials, calm academic feel. Explicitly a conceptual illustration, not a real experiment or microscopy result.
+Composition/framing: landscape 4:3. Center the useful subject, fill the composition while preserving breathable margins. Clear silhouette and readable at approximately 450 by 350 CSS pixels on the right side of a website hero.
+Lighting/mood: soft natural studio light, restrained highlights, quiet and sophisticated.
+Color palette: deep green and teal with restrained copper-orange accents.
+Materials/textures: gently translucent hydrogel structure with porous interconnected cavities; smooth linked polymer beads; refined matte and satin surfaces.
+Constraints: No people, campus, logos, letters, words, labels, UI, or charts. No implied measured data. No neon or cyberpunk, no DNA double helix cliché, no stock chemistry glassware. Render one image only.

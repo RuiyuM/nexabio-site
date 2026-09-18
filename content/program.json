@@ -2,6 +2,11 @@
   "institution": "The University of Texas at Dallas",
   "headline": "Building a next-generation AI biomaterials workforce.",
   "introduction": "NEXABio brings together artificial intelligence, biomaterials, and computational research. Our CyberTraining pilot prepares undergraduate and graduate students to apply data-driven methods to the discovery and design of biomaterials.",
+  "heroImage": {
+    "src": "/nexabio-site/images/ai-biomaterials.webp",
+    "alt": "Conceptual illustration of a polymer scaffold, molecular chains, and computational connections.",
+    "caption": "AI + biomaterials · Conceptual illustration"
+  },
   "overview": "Through workshops, a summer bootcamp, and invited talks, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",
   "facts": [
     { "label": "Audience", "value": "Undergraduate & graduate students" },
@@ -47,8 +52,8 @@
     "formUrl": "https://forms.gle/13iPUM7vkB7HX4tK8"
   },
   "team": [
-    { "name": "Yunhui Guo", "role": "Principal Investigator", "department": "Department of Computer Science", "focus": "Machine learning methods, computational infrastructure, model evaluation, and reproducible workflows for biomaterials research." },
-    { "name": "Yongsheng Gao", "role": "Co-Principal Investigator", "department": "Department of Bioengineering", "focus": "Biomaterials fundamentals, experimental design, polymer science, and integration of AI methods with experimental insights." }
+    { "name": "Yunhui Guo", "role": "Principal Investigator", "department": "Department of Computer Science", "focus": "Machine learning methods, computational infrastructure, model evaluation, and reproducible workflows for biomaterials research.", "photo": "/nexabio-site/images/team/yunhui-guo.jpg", "profileUrl": "https://profiles.utdallas.edu/yunhui.guo" },
+    { "name": "Yongsheng Gao", "role": "Co-Principal Investigator", "department": "Department of Bioengineering", "focus": "Biomaterials fundamentals, experimental design, polymer science, and integration of AI methods with experimental insights.", "photo": "/nexabio-site/images/team/yongsheng-gao.jpg", "profileUrl": "https://profiles.utdallas.edu/yongsheng.gao" }
   ],
   "contactEmail": "",
   "resources": {

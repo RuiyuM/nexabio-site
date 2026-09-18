@@ -13,6 +13,7 @@ A simple English website for the NEXABio CyberTraining pilot at The University o
 - Content decisions and outstanding questions: [`docs/content-review.md`](docs/content-review.md)
 - Editing guide: [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - Selected polymer-loop logo and usage: [`public/brand/README.md`](public/brand/README.md)
+- Website images and original sources: [`public/images/README.md`](public/images/README.md)
 
 The page includes an overview, training activities, a proposed timeline, ten workshop topics, participation information, project team, and learning resources. A live student interest form is connected; this is not a formal admission application. The contact email remains pending.
 
