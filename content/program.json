@@ -4,7 +4,7 @@
   "introduction": "NEXABio brings together artificial intelligence, biomaterials, and computational research. Our CyberTraining pilot prepares undergraduate and graduate students to apply data-driven methods to the discovery and design of biomaterials.",
   "heroImage": {
     "src": "/nexabio-site/images/ai-biomaterials.webp",
-    "alt": "Conceptual illustration of a polymer scaffold, molecular chains, and computational connections.",
+    "alt": "2D concept illustration of a polymer scaffold, a molecular chain, and a drug-delivery carrier beside a cell membrane.",
     "caption": "AI + biomaterials · Conceptual illustration"
   },
   "overview": "Through workshops, a summer bootcamp, and invited talks, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",

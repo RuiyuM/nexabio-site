@@ -41,7 +41,7 @@ text(copy.intro,48,290,720,46,18,'#FFFFFF');
 
 text(copy.audienceHeading,48,375,444,60,24,green,true);
 text(copy.audience,48,444,444,106,18,muted);
-slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'poster/ai-biomaterials.png'))),contentType:'image/png',alt:'Concept illustration of a polymer scaffold, molecular chains, and computational connections.',fit:'contain',position:{left:524,top:366,width:244,height:183}});
+slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'poster/ai-biomaterials.png'))),contentType:'image/png',alt:'2D concept illustration of a polymer scaffold, a molecular chain, and a drug-delivery carrier beside a cell membrane.',fit:'contain',position:{left:524,top:366,width:244,height:183}});
 text(copy.imageCaption,524,555,244,17,11,muted);
 
 text(copy.activitiesHeading,48,580,720,30,24,green,true);

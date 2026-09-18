@@ -11,6 +11,6 @@ The project owner requested the faculty photographs from their UT Dallas pages. 
 
 ## Concept illustration
 
-`ai-biomaterials.webp` is an original AI-generated concept illustration for this draft website. It is not a photograph, experimental result, or scientifically validated molecular model. The page labels it as a conceptual illustration. The generation prompt is recorded in `ai-biomaterials-prompt.txt`.
+`ai-biomaterials.webp` is the user-selected 2D cartoon concept C: polymer structure and drug delivery. It was generated with the built-in imagegen tool on September 18, 2026. The matching original PNG is stored at `poster/ai-biomaterials.png` and is embedded in the editable recruitment poster. It is not a photograph, experimental result, or scientifically validated molecular model. The page labels it as a conceptual illustration. The exact generation prompt is recorded in `ai-biomaterials-prompt.txt`.
 
 To change an image or a faculty profile link, edit `content/program.json`. Keep images in this folder and preserve the `/nexabio-site/` prefix in website paths.
