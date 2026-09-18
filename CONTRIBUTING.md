@@ -15,7 +15,7 @@
 
 ## 常见更新
 
-- 日期、名额、资助：修改 `application.details`。
+- 日期、名额、费用：修改 `application.details`。补助醒目提示：修改 `compensation`，并同步海报文案及最终文件。
 - Google 表单填写链接：同时修改 `forms/links.json` 的 `responderUrl` 和 `application.formUrl`；不要填编辑链接。换问卷时也要更新海报二维码和短链接。
 - 项目邮箱：修改 `contactEmail`；留空时不会生成虚构的邮箱链接。
 - 课程：修改 `curriculum`。

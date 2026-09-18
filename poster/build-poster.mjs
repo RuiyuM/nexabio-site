@@ -35,7 +35,9 @@ block(0,0,816,12,orange);
 block(0,12,816,333,green);
 slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'public/brand/nexabio-logo-dark-v1.png'))),contentType:'image/png',alt:'NEXABio polymer-loop logo',fit:'contain',position:{left:30,top:16,width:300,height:100}});
 text(copy.institution,48,110,690,26,19,'#DDECE5');
-text(copy.eyebrow,48,146,690,22,15,'#EDBF9A',true);
+const compensationBanner=text(copy.eyebrow,48,142,720,31,21,green,true);
+compensationBanner.fill='#F1BD91';
+compensationBanner.text.style={typeface:'Arial',fontSize:21,color:green,bold:true,autoFit:'none',wrap:'square',verticalAlignment:'top',insets:{left:10,right:10,top:3,bottom:0}};
 text(copy.headline,48,180,720,107,43,'#FFFFFF',true);
 text(copy.intro,48,290,720,46,18,'#FFFFFF');
 
@@ -68,7 +70,7 @@ slide.speakerNotes.textFrame.setText([
   'NEXABio student recruitment draft. US Letter portrait. The selected polymer-loop logo, student collaboration illustration, and QR are separate images; body text remains editable.',
   'Content: supplied NSF_CyberTraining.pdf and content/program.json. The original proposal is private and is not included in this repository.',
   copy.team,
-  'Dates, eligibility, funding acknowledgment, and participant support are unconfirmed. No award, stipend, or enrollment guarantee is made.',
+  'The project owner confirmed that students with successful, confirmed program registration will receive compensation. The amount and payment details have not been specified. Dates, eligibility, and formal funding acknowledgment remain unconfirmed; the interest form is not enrollment confirmation.',
   'Form: '+links.responderUrl,
   'Brand: user-selected concept B, polymer loops. Logo source and usage: public/brand/README.md.',
   'Illustration: three fictional students collaborating on AI and biomaterials, selected by the project owner. Generated with the built-in imagegen tool on September 18, 2026. Original PNG shared with the website: public/images/student-collaboration.png. Exact prompt: public/images/student-collaboration-prompt.txt. Provenance: public/images/README.md. This is an illustration, not a photograph of actual participants or faculty.',

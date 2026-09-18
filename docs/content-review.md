@@ -20,7 +20,7 @@ Source: user-provided NSF_CyberTraining.pdf, 30 pages. Page numbers below refer 
 - Page 11 describes workshop Thursday evenings in the ECSS Building. Room/time confirmation is still needed; the draft publishes only UT Dallas and the proposed frequency.
 - Invited-speaker names on page 15 are proposed. No speaker is shown as confirmed.
 - Page 15's table heading says six talks per year while listing twelve entries. The website does not promise a talk count.
-- Deadline, application opening, fees, stipends, participant support, and contact email remain unconfirmed. A separate student interest form is now available; it is not a formal application or enrollment confirmation.
+- The project owner confirmed that students with confirmed program registration will receive compensation. The amount and payment details remain to be announced. Deadline, application opening, program fees, and contact email remain unconfirmed. A separate student interest form is now available; it is not a formal application or enrollment confirmation.
 - NSF funding status, the correct award number, and final acknowledgment require confirmation. The prior-support award on page 18 belongs to a different project and must not be reused.
 - Website hosting is GitHub Pages per the user's instruction; the proposal's page 20 server-hosting description is not an instruction to deploy elsewhere.
 

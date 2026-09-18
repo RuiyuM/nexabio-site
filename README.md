@@ -56,6 +56,6 @@ Hosting is GitHub Pages only. The build creates a static artifact and normalizes
 
 ## Before official recruitment
 
-Confirm the dates, cohort size, eligibility, fees/support, contact email, and funding acknowledgment. The current form collects expressions of interest only. Then review the draft banner and indexing settings. `noindex` is a search-engine request, not access control.
+The project owner has confirmed compensation for students with confirmed program registration. Confirm the amount and payment details, dates, cohort size, eligibility, program fees, contact email, and funding acknowledgment. The current form collects expressions of interest only. Then review the draft banner and indexing settings. `noindex` is a search-engine request, not access control.
 
 The team should choose a license before broadly distributing curriculum or code. No project license has been inferred from the proposal.

@@ -2,6 +2,11 @@
   "institution": "The University of Texas at Dallas",
   "headline": "Building a next-generation AI biomaterials workforce.",
   "introduction": "NEXABio brings together artificial intelligence, biomaterials, and computational research. Our CyberTraining pilot prepares undergraduate and graduate students to apply data-driven methods to the discovery and design of biomaterials.",
+  "compensation": {
+    "headline": "Student participants will receive compensation",
+    "eligibility": "For students with confirmed program registration.",
+    "details": "Amount and payment details will be announced."
+  },
   "heroImage": {
     "src": "/nexabio-site/images/ai-biomaterials.webp",
     "alt": "2D concept illustration of a polymer scaffold, a molecular chain, and a drug-delivery carrier beside a cell membrane.",
@@ -52,7 +57,7 @@
       { "label": "Application opens", "value": "To be announced" },
       { "label": "Application deadline", "value": "To be announced" },
       { "label": "Cohort size", "value": "To be confirmed" },
-      { "label": "Fees and participant support", "value": "To be confirmed" }
+      { "label": "Program fees", "value": "To be confirmed" }
     ],
     "formUrl": "https://forms.gle/13iPUM7vkB7HX4tK8"
   },

@@ -1,7 +1,7 @@
 {
   "brand": "NEXABio",
   "institution": "The University of Texas at Dallas",
-  "eyebrow": "STUDENT INTEREST",
+  "eyebrow": "STUDENTS WILL RECEIVE COMPENSATION",
   "headline": "Explore AI for\nbiomaterials research",
   "intro": "Connect machine learning, scientific computing, and biomaterials through practical training and collaborative projects.",
   "audienceHeading": "For undergraduate\nand graduate students",
@@ -17,7 +17,7 @@
   "research": "Drug and gene delivery  /  Polymer and materials design\nTissue engineering  /  Reliable AI for scientific discovery",
   "cta": "Tell us what interests you",
   "ctaDescription": "Scan to share your academic background,\ngraduation plans, and research goals.\n12 questions · about 3-5 minutes",
-  "ctaNote": "Expression of interest only; enrollment is not confirmed.",
-  "footer": "DRAFT · Dates, eligibility, and participant support are being finalized.",
+  "ctaNote": "Compensation for confirmed participants. Interest form is not enrollment.",
+  "footer": "DRAFT · Dates, eligibility, and compensation details to be announced.",
   "team": "Project team: Yunhui Guo (Computer Science) and Yongsheng Gao (Bioengineering)"
 }
