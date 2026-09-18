@@ -6,7 +6,7 @@
 - [海报文案](content.json)
 - [二维码 PNG](qr-code.png) / [SVG](qr-code.svg)
 
-一页 US Letter 竖版（8.5 × 11 英寸），沿用网站的深绿、橙色与白色。正文和色块是 PowerPoint 原生对象；B 款分子链环 logo 与二维码是独立图片，可以替换。Logo 原图及使用说明见 [public/brand](../public/brand/README.md)。当前是学生意向登记草稿，未承诺名额、资助、录取或最终日期。
+一页 US Letter 竖版（8.5 × 11 英寸），沿用网站的深绿、橙色与白色。正文和色块是 PowerPoint 原生对象；B 款分子链环 logo、生物材料插图与二维码是独立图片，可以替换。Logo 原图及使用说明见 [public/brand](../public/brand/README.md)。[生物材料插图](ai-biomaterials.png) 与网站使用同一幅 AI 生成概念图，来源及提示词见 [图片说明](../public/images/README.md)，不表示真实实验结果。当前是学生意向登记草稿，未承诺名额、资助、录取或最终日期。
 
 ## 最容易的协作方式
 
@@ -20,7 +20,7 @@ PPTX 手工修改后请同步 `content.json`。图片预览也应从最终 PDF �
 
 ## 可选：由文案重新生成
 
-`build-poster.mjs` 使用 `@oai/artifact-tool` 创建可编辑草稿，读取 `content.json`、`forms/links.json`、`qr-code.png` 和 `public/brand/nexabio-logo-dark-v1.png`。需在可用的 Artifact Tool 环境执行 `node poster/build-poster.mjs`；若包在其他目录，用 `ARTIFACT_NODE_MODULES` 指定对应 `node_modules`。草稿写入 `.poster-build/`，不会覆盖已审核的 PPTX。
+`build-poster.mjs` 使用 `@oai/artifact-tool` 创建可编辑草稿，读取 `content.json`、`forms/links.json`、`qr-code.png`、`ai-biomaterials.png` 和 `public/brand/nexabio-logo-dark-v1.png`。需在可用的 Artifact Tool 环境执行 `node poster/build-poster.mjs`；若包在其他目录，用 `ARTIFACT_NODE_MODULES` 指定对应 `node_modules`。草稿写入 `.poster-build/`，不会覆盖已审核的 PPTX。
 
 普通协作者不需要这个构建环境，直接编辑 PPTX 即可。重新生成会采用 JSON 文案与脚本中的布局，不包含只在 PPTX 中进行的手工调整。
 
