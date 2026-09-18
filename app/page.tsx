@@ -9,7 +9,7 @@ export default function Home() {
       <a className="skip-link" href="#main">Skip to content</a>
       <div className="draft-bar"><div className="container"><strong>Draft for review</strong><span>Program details are subject to confirmation.</span></div></div>
       <header className="site-header"><div className="container header-inner">
-        <a className="brand" href="#overview" aria-label="NEXABio home">NEXA<span>Bio</span><small>CyberTraining Pilot</small></a>
+        <a className="brand" href="#overview" aria-label="NEXABio home"><img className="brand-logo" src="/nexabio-site/brand/nexabio-logo-light-v1.webp" alt="NEXABio" width="2172" height="724" /><small>CyberTraining Pilot</small></a>
         <nav aria-label="Main navigation">{navigation.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav>
       </div></header>
       <main id="main">
@@ -44,7 +44,7 @@ export default function Home() {
           <aside className="repository-panel"><h3>Project collaboration</h3><p>Website drafts and project materials are maintained on GitHub.</p><a className="text-link" href={program.resources.repositoryUrl}>View the GitHub repository <span aria-hidden="true">↗</span></a><p className="note">The repository is public. Use pull requests to propose updates to the project materials.</p></aside>
         </div></section>
       </main>
-      <footer className="site-footer"><div className="container footer-inner"><div><strong>NEXABio</strong><p>{program.institution}</p></div><p>CyberTraining Pilot · Website draft<br />Formal funding acknowledgment to be confirmed.</p><a href="#overview">Back to top ↑</a></div></footer>
+      <footer className="site-footer"><div className="container footer-inner"><div><img className="footer-logo" src="/nexabio-site/brand/nexabio-logo-dark-v1.webp" alt="NEXABio" width="2172" height="724" loading="lazy" /><p>{program.institution}</p></div><p>CyberTraining Pilot · Website draft<br />Formal funding acknowledgment to be confirmed.</p><a href="#overview">Back to top ↑</a></div></footer>
     </>
   );
 }

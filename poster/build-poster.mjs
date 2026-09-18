@@ -33,10 +33,10 @@ function text(value, x, y, w, h, size=20, color=ink, bold=false) {
 
 block(0,0,816,12,orange);
 block(0,12,816,333,green);
-text(copy.brand,48,35,315,52,42,'#FFFFFF',true);
-text(copy.institution,48,93,690,30,19,'#DDECE5');
-text(copy.eyebrow,48,141,690,22,15,'#EDBF9A',true);
-text(copy.headline,48,175,720,115,43,'#FFFFFF',true);
+slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'public/brand/nexabio-logo-dark-v1.png'))),contentType:'image/png',alt:'NEXABio polymer-loop logo',fit:'contain',position:{left:30,top:16,width:300,height:100}});
+text(copy.institution,48,110,690,26,19,'#DDECE5');
+text(copy.eyebrow,48,146,690,22,15,'#EDBF9A',true);
+text(copy.headline,48,180,720,107,43,'#FFFFFF',true);
 text(copy.intro,48,290,720,46,18,'#FFFFFF');
 
 text(copy.audienceHeading,48,376,720,33,25,green,true);
@@ -63,11 +63,12 @@ text(copy.ctaNote,48,1000,720,16,12,muted);
 text(copy.footer,48,1020,720,16,12,muted);
 
 slide.speakerNotes.textFrame.setText([
-  'NEXABio student recruitment draft. US Letter portrait; all text and color blocks are native editable PowerPoint shapes. Only the QR is an image.',
+  'NEXABio student recruitment draft. US Letter portrait. The selected polymer-loop logo and the QR are separate images; body text remains editable.',
   'Content: supplied NSF_CyberTraining.pdf and content/program.json. The original proposal is private and is not included in this repository.',
   copy.team,
   'Dates, eligibility, funding acknowledgment, and participant support are unconfirmed. No award, stipend, or enrollment guarantee is made.',
   'Form: '+links.responderUrl,
+  'Brand: user-selected concept B, polymer loops. Logo source and usage: public/brand/README.md.',
   'Editing instructions: poster/README.md. Changing the target form requires regenerating and replacing the QR image.',
 ].join('\n'));
 await (await PresentationFile.exportPptx(presentation)).save(path.join(out,'candidate.pptx'));

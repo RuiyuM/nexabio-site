@@ -1,0 +1,15 @@
+{
+  "selectedConcept": "B — polymer loops",
+  "generator": "Built-in imagegen",
+  "date": "2026-09-18",
+  "variants": [
+    {
+      "id": "light",
+      "prompt": "Use case: precise-object-edit, final production brand asset. Preserve the reference logo's exact chosen B concept: two broad interwoven polymer loops, a tall vertical green loop on the left and a sideways orange loop crossing it, followed by the exact bold wordmark \"NEXABio\". Preserve the left loop silhouette, right loop silhouette, crossing order, typeface, spelling, proportions, and horizontal arrangement. Remove every trace of haze, glow, bevel, texture and shadow. Clean flat solid colors with crisp edges. This image is a finished horizontal brand strip, not a presentation mockup. Landscape 1536x512, logo centered and nearly filling the width with modest uniform clearspace. No labels, no subtitles, no extra symbols. Solid opaque WHITE #FFFFFF background across the whole canvas. The background is part of the artwork and must not be removed. Left loop and all letters deep green #154F43, crossing loop burnt orange #C7602C. No transparency; no black pixels outside the logo. High contrast, clean professional print-ready look."
+    },
+    {
+      "id": "dark",
+      "prompt": "Use case: precise-object-edit, final production brand asset. Preserve the reference logo's exact chosen B concept: two broad interwoven polymer loops, a tall vertical green loop on the left and a sideways orange loop crossing it, followed by the exact bold wordmark \"NEXABio\". Preserve the left loop silhouette, right loop silhouette, crossing order, typeface, spelling, proportions, and horizontal arrangement. Remove every trace of haze, glow, bevel, texture and shadow. Clean flat solid colors with crisp edges. This image is a finished horizontal brand strip, not a presentation mockup. Landscape 1536x512, logo centered and nearly filling the width with modest uniform clearspace. No labels, no subtitles, no extra symbols. Reverse-color version on a solid opaque deep GREEN #154F43 background across the entire canvas. The green background is part of the artwork and must not be removed. Recolor the left green loop and all wordmark letters to pure WHITE #FFFFFF; keep the crossing loop burnt orange #C7602C. Any separation at loop crossings must use the same green as the background. No white rectangle, no borders, no transparency, no gradients. High contrast, clean professional print-ready look."
+    }
+  ]
+}
