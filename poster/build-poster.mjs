@@ -47,7 +47,7 @@ slide.images.add({blob:new Uint8Array(await fs.readFile(path.join(root,'public/i
 text(copy.imageCaption,524,555,244,17,11,muted);
 
 text(copy.activitiesHeading,48,580,720,30,24,green,true);
-copy.activities.forEach((item,i)=>{
+copy.workshopComponents.forEach((item,i)=>{
   const x=48+i*245;
   block(x,625,218,3,orange);
   text(item.title,x,643,225,30,20,green,true);
@@ -69,6 +69,7 @@ text(copy.footer,48,1020,720,16,12,muted);
 slide.speakerNotes.textFrame.setText([
   'NEXABio student recruitment draft. US Letter portrait. The selected polymer-loop logo, student collaboration illustration, and QR are separate images; body text remains editable.',
   'Content: supplied NSF_CyberTraining.pdf and content/program.json. The original proposal is private and is not included in this repository.',
+  'Current recruitment scope: CyberTraining Workshops only, following project-team feedback.',
   copy.team,
   'The project owner confirmed that students with successful, confirmed program registration will receive compensation. The amount and payment details have not been specified. Dates, eligibility, and formal funding acknowledgment remain unconfirmed; the interest form is not enrollment confirmation.',
   'Form: '+links.responderUrl,

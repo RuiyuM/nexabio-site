@@ -1,7 +1,7 @@
 {
   "institution": "The University of Texas at Dallas",
   "headline": "Building a next-generation AI biomaterials workforce.",
-  "introduction": "NEXABio brings together artificial intelligence, biomaterials, and computational research. Our CyberTraining pilot prepares undergraduate and graduate students to apply data-driven methods to the discovery and design of biomaterials.",
+  "introduction": "NEXABio brings together artificial intelligence, biomaterials, and computational research. Our CyberTraining Workshops prepare undergraduate and graduate students to apply data-driven methods to the discovery and design of biomaterials.",
   "compensation": {
     "headline": "Student participants will receive compensation",
     "eligibility": "For students with confirmed program registration.",
@@ -12,7 +12,7 @@
     "alt": "2D concept illustration of a polymer scaffold, a molecular chain, and a drug-delivery carrier beside a cell membrane.",
     "caption": "AI + biomaterials · Conceptual illustration"
   },
-  "overview": "Through workshops, a summer bootcamp, and invited talks, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",
+  "overview": "Through hands-on workshops, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",
   "programImage": {
     "src": "/nexabio-site/images/student-collaboration.webp",
     "alt": "Illustration of three students collaborating around a laptop and a biomaterial scaffold model.",
@@ -21,18 +21,12 @@
   "facts": [
     { "label": "Audience", "value": "Undergraduate & graduate students" },
     { "label": "Focus", "value": "AI + biomaterials" },
-    { "label": "Activities", "value": "Workshops, bootcamp & talks" },
+    { "label": "Program", "value": "CyberTraining Workshops" },
     { "label": "Host institution", "value": "UT Dallas" }
   ],
-  "activities": [
-    { "title": "CyberTraining Workshops", "format": "In person · Every other week", "description": "Short lectures, guided coding exercises, and team-based mini-projects build computational skills progressively. Students work with real biomaterials datasets and connect AI methods with experimental questions." },
-    { "title": "Summer Bootcamp", "format": "Online · 10-day program", "description": "An intensive introduction to AI-enabled biomaterials research, with practical exercises in scientific programming, machine learning, and computing workflows. Collaborative projects conclude with student presentations." },
-    { "title": "Invited Talks", "format": "In person or online · Every other week", "description": "Researchers share developments in AI-driven biomaterials design, polymer discovery, drug delivery, and regenerative medicine. Discussions connect current research with workshop and bootcamp activities." }
-  ],
+  "workshop": { "title": "CyberTraining Workshops", "format": "In person · Every other week", "description": "Short lectures, guided coding exercises, and team-based mini-projects build computational skills progressively. Students work with real biomaterials datasets and connect AI methods with experimental questions." },
   "timeline": [
-    { "activity": "CyberTraining Workshops", "timing": "Fall 2026 and Fall 2027 (proposed)", "format": "In person at UT Dallas" },
-    { "activity": "Invited Talks", "timing": "Spring 2027 and Spring 2028 (proposed)", "format": "In person or online" },
-    { "activity": "Summer Bootcamp", "timing": "Summer 2027 and Summer 2028 (proposed)", "format": "Online" }
+    { "activity": "CyberTraining Workshops", "timing": "Fall 2026 and Fall 2027 (proposed)", "format": "In person at UT Dallas" }
   ],
   "curriculumIntroduction": "The proposed workshop curriculum progresses from foundations to practical research workflows. Topics combine AI methods with the chemical, physical, and biological questions that shape biomaterials design.",
   "curriculum": [

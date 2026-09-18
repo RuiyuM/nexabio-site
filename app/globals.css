@@ -63,12 +63,10 @@ dd { margin: 0; font-weight: 600; }
 .program-visual { margin: 0; min-width: 0; }
 .program-visual img { display: block; width: 100%; height: auto; border-radius: 5px; }
 .program-visual figcaption { margin-top: .75rem; font-size: .875rem; color: #59675f; }
-.activity-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; margin-top: 2rem; }
-.activity { border-top: 1px solid #92aa9c; padding-top: 1.3rem; }
-.activity-number { display: block; font-size: .875rem; font-weight: 700; color: #7c471f; margin-bottom: .7rem; }
-.activity h3 { font-size: 1.25rem; }
-.activity-format { color: #305d47; font-size: .9375rem; font-weight: 600; margin-bottom: .8rem; }
-.activity p:last-child { color: #536058; margin-bottom: 0; }
+.workshop-details { border-top: 1px solid #92aa9c; padding-top: 1.3rem; margin-top: 2rem; max-width: 830px; }
+.workshop-details h3 { font-size: 1.25rem; }
+.workshop-format { color: #305d47; font-size: .9375rem; font-weight: 600; margin-bottom: .8rem; }
+.workshop-details p:last-child { color: #536058; margin-bottom: 0; }
 .schedule { margin-top: 2.6rem; }
 .schedule h3 { margin-bottom: 1rem; }
 .schedule-table { font-size: 1rem; line-height: 1.5; }
@@ -127,20 +125,19 @@ dd { margin: 0; font-weight: 600; }
   .program-intro { gap: 2rem; }
   .team-identity { grid-template-columns: 100px minmax(0, 1fr); gap: 1rem; }
   .team-grid { gap: 1.25rem; } .team-member { padding: 1.1rem; }
-  .activity-grid { gap: 1.3rem; }
   .application-grid, .resources-grid { gap: 2rem; grid-template-columns: minmax(0, 1fr) 300px; }
 }
 @media (max-width: 680px) {
   .container { padding-left: 1.25rem; padding-right: 1.25rem; }
   .draft-bar .container { gap: .1rem .7rem; } .header-inner { min-height: unset; } nav { gap: .3rem 1.2rem; }
   .hero { padding: 2.6rem 0; }
-  .hero-grid, .program-intro, .activity-grid, .application-grid, .team-grid, .resources-grid, .curriculum-list { grid-template-columns: minmax(0, 1fr); }
+  .hero-grid, .program-intro, .application-grid, .team-grid, .resources-grid, .curriculum-list { grid-template-columns: minmax(0, 1fr); }
   .at-a-glance { margin-top: 2rem; }
   .at-a-glance dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1rem; }
   .hero-visual { max-width: 480px; }
   .program-visual { width: 100%; max-width: 440px; justify-self: center; }
   .team-identity { grid-template-columns: 112px minmax(0, 1fr); }
-  .content-section { padding: 2.7rem 0; } .activity-grid { gap: 1.5rem; } .team-grid { gap: 1.2rem; }
+  .content-section { padding: 2.7rem 0; } .team-grid { gap: 1.2rem; }
   .repository-panel { padding-left: 0; padding-top: 1.2rem; border-left: 0; border-top: 1px solid var(--border); }
   .footer-inner { gap: 1.1rem; } .footer-inner > * { width: 100%; }
 }
@@ -149,5 +146,5 @@ dd { margin: 0; font-weight: 600; }
   nav, .skip-link, .primary-link, .footer-inner > a { display: none; }
   .container { max-width: none; padding: 0; } .hero, .content-section { padding: 1.5rem 0; }
   .site-footer { background: white; color: #202a27; } .site-footer p { color: #202a27; }
-  .activity, .team-member, .curriculum-list li { break-inside: avoid; }
+  .workshop-details, .team-member, .curriculum-list li { break-inside: avoid; }
 }

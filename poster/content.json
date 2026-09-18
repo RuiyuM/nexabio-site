@@ -3,15 +3,15 @@
   "institution": "The University of Texas at Dallas",
   "eyebrow": "STUDENTS WILL RECEIVE COMPENSATION",
   "headline": "Explore AI for\nbiomaterials research",
-  "intro": "Connect machine learning, scientific computing, and biomaterials through practical training and collaborative projects.",
+  "intro": "Join CyberTraining Workshops in AI, scientific computing, and biomaterials through hands-on exercises and team projects.",
   "audienceHeading": "For undergraduate\nand graduate students",
   "imageCaption": "Student collaboration illustration",
   "audience": "Bioengineering, computer science, materials science, chemistry, and related fields. Students from UT Dallas and other institutions are welcome to express interest.",
-  "activitiesHeading": "Three ways to learn and connect",
-  "activities": [
-    {"title": "Workshops", "description": "Guided coding and\nhands-on mini-projects"},
-    {"title": "Summer bootcamp", "description": "An online introduction to\nAI-enabled biomaterials"},
-    {"title": "Invited talks", "description": "Research perspectives\nacross AI and biomaterials"}
+  "activitiesHeading": "CyberTraining Workshops",
+  "workshopComponents": [
+    {"title": "Guided coding", "description": "Practice scientific\ncomputing and AI methods"},
+    {"title": "Biomaterials data", "description": "Work with real datasets\nand research questions"},
+    {"title": "Team mini-projects", "description": "Connect computational\nmethods with experiments"}
   ],
   "researchHeading": "Explore research questions that matter",
   "research": "Drug and gene delivery  /  Polymer and materials design\nTissue engineering  /  Reliable AI for scientific discovery",

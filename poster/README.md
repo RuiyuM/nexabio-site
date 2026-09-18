@@ -6,6 +6,8 @@
 - [海报文案](content.json)
 - [二维码 PNG](qr-code.png) / [SVG](qr-code.svg)
 
+当前招募内容仅介绍 CyberTraining Workshops；三栏分别介绍编程练习、生物材料数据和团队小项目。
+
 一页 US Letter 竖版（8.5 × 11 英寸），沿用网站的深绿、橙色与白色。正文和色块是 PowerPoint 原生对象；B 款分子链环 logo、学生协作插图与二维码是独立图片，可以替换。Logo 原图及使用说明见 [public/brand](../public/brand/README.md)。[学生协作插图](../public/images/student-collaboration.png) 采用用户选定的三位学生围绕电脑与生物材料模型协作的 2D 卡通图，与网站项目介绍使用同一张图片。来源及提示词见 [图片说明](../public/images/README.md)，人物为虚构，并非真实参与者或教师照片。项目负责人已确认：成功报名并确认参加项目的学生将获得补助；具体金额和发放安排待公布。海报顶部以加粗色条突出补助信息。当前问卷仍为意向登记，不代表录取或报名确认；名额及最终日期仍待确认。
 
 ## 最容易的协作方式

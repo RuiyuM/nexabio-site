@@ -1,7 +1,7 @@
 import program from '@/content/program.json';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 
-const navigation = [['overview', 'Overview'], ['program', 'Program'], ['curriculum', 'Curriculum'], ['apply', 'Participate'], ['team', 'Team'], ['resources', 'Resources']];
+const navigation = [['overview', 'Overview'], ['program', 'Workshops'], ['curriculum', 'Curriculum'], ['apply', 'Participate'], ['team', 'Team'], ['resources', 'Resources']];
 
 export default function Home() {
   return (
@@ -20,9 +20,9 @@ export default function Home() {
           <aside className="at-a-glance" aria-labelledby="glance-heading"><h2 id="glance-heading">At a glance</h2><dl>{program.facts.map(fact => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl></aside>
         </div></section>
         <section id="program" className="content-section section-anchor"><div className="container">
-          <div className="program-intro"><div><p className="eyebrow section-label">The program</p><h2>Three ways to learn and connect</h2><p className="section-intro">{program.overview}</p></div><figure className="program-visual"><img src={program.programImage.src} alt={program.programImage.alt} width="1448" height="1086" loading="lazy" decoding="async" /><figcaption>{program.programImage.caption}</figcaption></figure></div>
-          <div className="activity-grid">{program.activities.map((activity, index) => <article className="activity" key={activity.title}><span className="activity-number" aria-hidden="true">0{index + 1}</span><h3>{activity.title}</h3><p className="activity-format">{activity.format}</p><p>{activity.description}</p></article>)}</div>
-          <div className="schedule"><h3>Proposed program timeline</h3>
+          <div className="program-intro"><div><p className="eyebrow section-label">The program</p><h2>{program.workshop.title}</h2><p className="section-intro">{program.overview}</p></div><figure className="program-visual"><img src={program.programImage.src} alt={program.programImage.alt} width="1448" height="1086" loading="lazy" decoding="async" /><figcaption>{program.programImage.caption}</figcaption></figure></div>
+          <div className="workshop-details"><h3>What to expect</h3><p className="workshop-format">{program.workshop.format}</p><p>{program.workshop.description}</p></div>
+          <div className="schedule"><h3>Proposed workshop timeline</h3>
             <Table className="schedule-table"><TableHeader><TableRow><TableHead scope="col">Activity</TableHead><TableHead scope="col">Planned timing</TableHead><TableHead scope="col">Format</TableHead></TableRow></TableHeader><TableBody>{program.timeline.map(item => <TableRow key={item.activity}><TableCell>{item.activity}</TableCell><TableCell>{item.timing}</TableCell><TableCell>{item.format}</TableCell></TableRow>)}</TableBody></Table>
             <p className="note">Exact dates, session times, and locations will be announced after confirmation.</p>
           </div>
