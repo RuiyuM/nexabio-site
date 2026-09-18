@@ -8,6 +8,11 @@
     "caption": "AI + biomaterials · Conceptual illustration"
   },
   "overview": "Through workshops, a summer bootcamp, and invited talks, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",
+  "programImage": {
+    "src": "/nexabio-site/images/student-collaboration.webp",
+    "alt": "Illustration of three students collaborating around a laptop and a biomaterial scaffold model.",
+    "caption": "Student collaboration · Illustration"
+  },
   "facts": [
     { "label": "Audience", "value": "Undergraduate & graduate students" },
     { "label": "Focus", "value": "AI + biomaterials" },
