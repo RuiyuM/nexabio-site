@@ -10,7 +10,7 @@
   "heroImage": {
     "src": "/nexabio-site/images/ai-biomaterials.webp",
     "alt": "2D concept illustration of a polymer scaffold, a molecular chain, and a drug-delivery carrier beside a cell membrane.",
-    "caption": "AI + biomaterials · Conceptual illustration"
+    "caption": "AI + biomaterials"
   },
   "overview": "Through hands-on workshops, students will connect polymer chemistry and biomaterials fundamentals with machine learning, high-performance computing, and reproducible research practices.",
   "programImage": {
