@@ -45,7 +45,14 @@ export default function Home() {
           <div><p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p><p className="note">Teaching materials are in preparation. Links will be added as they become available.</p><h3 className="subheading">Student interest poster</h3><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pdf" download>Download the poster (PDF)</a></p></div>
         </div></section>
       </main>
-      <footer className="site-footer"><div className="container footer-inner"><div><img className="footer-logo" src="/nexabio-site/brand/nexabio-logo-dark-v1.webp" alt="NEXABio" width="2172" height="724" loading="lazy" /><p>{program.institution}</p></div><p>NSF CyberTraining Program<br />This program is currently funded by the National Science Foundation grants OAC 2612287.</p><a href="#overview">Back to top ↑</a></div></footer>
+      <footer className="site-footer">
+      <div className="container footer-inner">
+        <div><img className="footer-logo" src="/nexabio-site/brand/nexabio-logo-dark-v1.webp" alt="NEXABio" width="2172" height="724" loading="lazy" /><p>{program.institution}</p></div>
+
+        <div><img className="footer-logo" src="/nexabio-site/public/NSF_logo.png" alt="NEXABio" width="2172" height="724" loading="lazy" /> <p>NSF CyberTraining Program<br />This program is currently funded by the National Science Foundation grants OAC 2612287.</p></div>
+             
+        <a href="#overview">Back to top ↑</a></div>
+      </footer>
     </>
   );
 }
