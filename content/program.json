@@ -45,7 +45,7 @@
   "application": {
     "status": "",
     "audience": "The program is designed for undergraduate and graduate students in bioengineering, computer science, materials science, chemistry, and related fields. Participation is intended to include students at UT Dallas and other institutions.",
-    "experience": "Students with different levels of computational experience are encouraged to explore the program. Final prerequisites and eligibility requirements will be published with the application.",
+    "experience": "Students with different levels of computational experience are encouraged to explore the program.",
     "fields": ["Institution, major, and current degree level", "Expected graduation year and term", "Research interests, experience, and learning goals", "An optional short research outlook"],
     "details": [
       { "label": "Application opens", "value": "To be announced" },
