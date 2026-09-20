@@ -21,12 +21,12 @@
   "facts": [
     { "label": "Audience", "value": "Undergraduate & graduate students" },
     { "label": "Focus", "value": "AI + biomaterials" },
-    { "label": "Program", "value": "CyberTraining Workshops" },
+    { "label": "Program", "value": "NSF CyberTraining Program" },
     { "label": "Host institution", "value": "UT Dallas" }
   ],
-  "workshop": { "title": "CyberTraining Workshops", "format": "In person · Every other week", "description": "Short lectures, guided coding exercises, and team-based mini-projects build computational skills progressively. Students work with real biomaterials datasets and connect AI methods with experimental questions." },
+  "workshop": { "title": "CyberTraining Workshops", "format": "In person", "description": "Short lectures, guided coding exercises, and team-based mini-projects build computational skills progressively. Students work with real biomaterials datasets and connect AI methods with experimental questions." },
   "timeline": [
-    { "activity": "CyberTraining Workshops", "timing": "Fall 2026 and Fall 2027 (proposed)", "format": "In person at UT Dallas" }
+    { "activity": "CyberTraining Workshops", "timing": "Fall 2026", "format": "In person at UT Dallas" }
   ],
   "curriculumIntroduction": "The proposed workshop curriculum progresses from foundations to practical research workflows. Topics combine AI methods with the chemical, physical, and biological questions that shape biomaterials design.",
   "curriculum": [
