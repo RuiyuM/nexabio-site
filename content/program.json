@@ -5,7 +5,7 @@
   "compensation": {
     "headline": "Student participants will receive compensation",
     "eligibility": "For students with confirmed program registration.",
-    "details": "Amount and payment details will be announced."
+    "details": "Each participant will receive a $200 stipend."
   },
   "heroImage": {
     "src": "/nexabio-site/images/ai-biomaterials.webp",
@@ -48,10 +48,9 @@
     "experience": "Students with different levels of computational experience are encouraged to explore the program.",
     "fields": ["Institution, major, and current degree level", "Expected graduation year and term", "Research interests, experience, and learning goals", "An optional short research outlook"],
     "details": [
-      { "label": "Application opens", "value": "To be announced" },
-      { "label": "Application deadline", "value": "To be announced" },
-      { "label": "Cohort size", "value": "To be confirmed" },
-      { "label": "Program fees", "value": "To be confirmed" }
+      { "label": "Application opens", "value": "September 21, 2026" },
+      { "label": "Application deadline", "value": "October 16, 2026" },
+      { "label": "Cohort size", "value": "30" },
     ],
     "formUrl": "https://forms.gle/13iPUM7vkB7HX4tK8"
   },
@@ -62,6 +61,5 @@
   "contactEmail": "",
   "resources": {
     "description": "The project plans to share instructional materials, computational notebooks, dataset references, and reproducible workflows to support learning during the program and adoption by other institutions.",
-    "repositoryUrl": "https://github.com/RuiyuM/nexabio-site"
   }
 }
