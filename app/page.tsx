@@ -38,7 +38,6 @@ export default function Home() {
         <section id="team" className="content-section team-section section-anchor"><div className="container">
           <p className="eyebrow section-label">Project team</p><h2>Connecting computing and bioengineering</h2>
           <div className="team-grid">{program.team.map(person => <article key={person.name} className="team-member"><div className="team-identity"><a className="portrait-link" href={person.profileUrl} aria-label={`${person.name} — UT Dallas faculty profile`}><img className="team-photo" src={person.photo} alt={person.name} width="450" height="450" loading="lazy" decoding="async" /></a><div><p className="role">{person.role}</p><h3><a href={person.profileUrl}>{person.name}</a></h3><p className="department">{person.department}<br />{program.institution}</p></div></div><p className="team-focus">{person.focus}</p><a className="text-link faculty-link" href={person.profileUrl} aria-label={`View ${person.name}'s UT Dallas faculty profile`}>UT Dallas faculty profile <span aria-hidden="true">↗</span></a></article>)}</div>
-          <p className="photo-credit">Faculty photographs: UT Dallas Profiles.</p>
           <div className="contact-line"><h3>Contact</h3>{program.contactEmail ? <a href={`mailto:${program.contactEmail}`}>{program.contactEmail}</a> : <p>Program contact details will be added before applications open.</p>}</div>
         </div></section>
         <section id="resources" className="content-section section-anchor"><div className="container resources-grid">
