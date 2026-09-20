@@ -14,7 +14,6 @@ export default function Home() {
       <main id="main">
         <section id="overview" className="hero section-anchor"><div className="container"><div className="hero-grid">
           <div><p className="eyebrow">{program.institution}</p><h1>{program.headline}</h1><p className="intro">{program.introduction}</p><a className="primary-link" href="#apply">View participation information <span aria-hidden="true">↗</span></a> 
-          <br>
           <div className="compensation-callout"><strong>{program.compensation.headline}</strong><p>{program.compensation.eligibility}</p></div></div>
           <figure className="hero-visual"><img src={program.heroImage.src} alt={program.heroImage.alt} width="1448" height="1086" fetchPriority="high" /><figcaption>{program.heroImage.caption}</figcaption></figure>
           </div>
