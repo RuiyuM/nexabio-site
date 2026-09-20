@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <a className="skip-link" href="#main">Skip to content</a>
       <header className="site-header"><div className="container header-inner">
-        <a className="brand" href="#overview" aria-label="NEXABio home"><img className="brand-logo" src="/nexabio-site/brand/nexabio-logo-light-v1.webp" alt="NEXABio" width="2172" height="724" /><small>NSF CyberTraining Pilot</small></a>
+        <a className="brand" href="#overview" aria-label="NEXABio home"><img className="brand-logo" src="/nexabio-site/brand/nexabio-logo-light-v1.webp" alt="NEXABio" width="2172" height="724" /><small>NSF CyberTraining Project</small></a>
         <nav aria-label="Main navigation">{navigation.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav>
       </div></header>
       <main id="main">
