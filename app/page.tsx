@@ -49,7 +49,7 @@ export default function Home() {
       <div className="container footer-inner">
         <div><img className="footer-logo" src="/nexabio-site/brand/nexabio-logo-dark-v1.webp" alt="NEXABio" width="2172" height="724" loading="lazy" /><p>{program.institution}</p></div>
 
-        <div><img className="footer-logo" src="/nexabio-site/images/NSF_logo.png" alt="NEXABio" width="2172" height="724" loading="lazy" /> <p>NSF CyberTraining Program<br />This program is currently funded by the National Science Foundation grants OAC 2612287.</p></div>
+        <div><img className="footer-logo" src="/nexabio-site/images/NSF_logo.png" alt="NEXABio" width="1172" height="324" loading="lazy" /> <p>NSF CyberTraining Program<br />This program is currently funded by the National Science Foundation grants OAC 2612287.</p></div>
              
         <a href="#overview">Back to top ↑</a></div>
       </footer>
