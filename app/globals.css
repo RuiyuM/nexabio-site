@@ -117,7 +117,7 @@ dd { margin: 0; font-weight: 600; }
 .site-footer { background: #154f43; color: #e5ece7; padding: 2rem 0; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 1.5rem 3rem; justify-content: space-between; align-items: start; }
 .footer-logo { display: block; width: 13rem; max-width: 100%; height: auto; margin: -.55rem 0 .2rem -.8rem; }
-.nsf-footer-logo { display: block; width: 4rem; max-width: 100%; height: auto; margin: -.55rem 0 .2rem -.8rem; }
+.nsf-footer-logo { display: block; width: 4.2rem; max-width: 100%; height: auto; margin: -.55rem 0 .2rem -.8rem; }
 .site-footer p { font-size: .875rem; color: #d0dfd5; margin: .3rem 0 0; }
 .site-footer a { color: white; font-size: .875rem; }
 @media (max-width: 900px) {
