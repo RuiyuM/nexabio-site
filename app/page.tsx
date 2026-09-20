@@ -42,11 +42,10 @@ export default function Home() {
           <div className="contact-line"><h3>Contact</h3>{program.contactEmail ? <a href={`mailto:${program.contactEmail}`}>{program.contactEmail}</a> : <p>Program contact details will be added before applications open.</p>}</div>
         </div></section>
         <section id="resources" className="content-section section-anchor"><div className="container resources-grid">
-          <div><p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p><p className="note">Teaching materials are in preparation. Links will be added as they become available.</p><h3 className="subheading">Student interest poster</h3><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pdf" download>Download the poster (PDF)</a></p><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pptx" download>Edit the poster (PowerPoint)</a></p></div>
-          <aside className="repository-panel"><h3>Project collaboration</h3><p>Website drafts and project materials are maintained on GitHub.</p><a className="text-link" href={program.resources.repositoryUrl}>View the GitHub repository <span aria-hidden="true">↗</span></a><p className="note">The repository is public. Use pull requests to propose updates to the project materials.</p></aside>
+          <div><p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p><p className="note">Teaching materials are in preparation. Links will be added as they become available.</p><h3 className="subheading">Student interest poster</h3><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pdf" download>Download the poster (PDF)</a></p></div>
         </div></section>
       </main>
-      <footer className="site-footer"><div className="container footer-inner"><div><img className="footer-logo" src="/nexabio-site/brand/nexabio-logo-dark-v1.webp" alt="NEXABio" width="2172" height="724" loading="lazy" /><p>{program.institution}</p></div><p>CyberTraining Pilot · Website draft<br />Formal funding acknowledgment to be confirmed.</p><a href="#overview">Back to top ↑</a></div></footer>
+      <footer className="site-footer"><div className="container footer-inner"><div><img className="footer-logo" src="/nexabio-site/brand/nexabio-logo-dark-v1.webp" alt="NEXABio" width="2172" height="724" loading="lazy" /><p>{program.institution}</p></div><p>NSF CyberTraining Program<br />This program is currently funded by the National Science Foundation grants OAC 2612287.</p><a href="#overview">Back to top ↑</a></div></footer>
     </>
   );
 }
