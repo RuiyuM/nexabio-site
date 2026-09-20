@@ -50,7 +50,7 @@
     "details": [
       { "label": "Application opens", "value": "September 21, 2026" },
       { "label": "Application deadline", "value": "October 16, 2026" },
-      { "label": "Cohort size", "value": "30" },
+      { "label": "Cohort size", "value": "30" }
     ],
     "formUrl": "https://forms.gle/13iPUM7vkB7HX4tK8"
   },
