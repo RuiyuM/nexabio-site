@@ -25,6 +25,7 @@ export default function Home() {
           <div className="schedule"><h3>Proposed workshop timeline</h3>
             <Table className="schedule-table"><TableHeader><TableRow><TableHead scope="col">Activity</TableHead><TableHead scope="col">Planned timing</TableHead><TableHead scope="col">Format</TableHead></TableRow></TableHeader><TableBody>{program.timeline.map(item => <TableRow key={item.activity}><TableCell>{item.activity}</TableCell><TableCell>{item.timing}</TableCell><TableCell>{item.format}</TableCell></TableRow>)}</TableBody></Table>
             <p className="note">The workshop will be held every two weeks.</p>
+            <p className="note">Each session will last approximately 45 minutes.</p>
             <p className="note">Exact dates, session times, and locations will be announced after confirmation.</p>
           </div>
         </div></section>
