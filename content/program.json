@@ -56,7 +56,7 @@
   },
   "team": [
     { "name": "Yunhui Guo", "role": "Principal Investigator", "department": "Department of Computer Science", "focus": "Machine learning methods, computational infrastructure, model evaluation, and reproducible workflows for biomaterials research.", "photo": "/nexabio-site/images/team/yunhui-guo.jpg", "profileUrl": "https://profiles.utdallas.edu/yunhui.guo" },
-    { "name": "Yongsheng Gao", "role": "Co-Principal Investigator", "department": "Department of Bioengineering", "focus": "Biomaterials fundamentals, experimental design, polymer science, and integration of AI methods with experimental insights.", "photo": "/nexabio-site/images/team/yongsheng-gao.jpg", "profileUrl": "https://profiles.utdallas.edu/yongsheng.gao" }
+    { "name": "Yongsheng Gao", "role": "Co-Principal Investigator", "department": "Department of Bioengineering", "focus": "Polymeric biomaterials, drug delivery, tissue engineering, regenerative medicine, and AI-assisted biomaterials applications.", "photo": "/nexabio-site/images/team/yongsheng-gao.jpg", "profileUrl": "https://profiles.utdallas.edu/yongsheng.gao" }
   ],
   "contactEmail": "",
   "resources": {
