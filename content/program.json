@@ -60,6 +60,24 @@
   ],
   "contactEmail": "",
   "resources": {
-    "description": "The project plans to share instructional materials, computational notebooks, dataset references, and reproducible workflows to support learning during the program and adoption by other institutions."
+    "description": "Explore the workshop notebooks in Google Colab and download the slides to review at your own pace. Save a copy of a notebook in your Google Drive to try the exercises yourself.",
+    "materials": [
+      {
+        "title": "SMILES: Explore molecules with Python",
+        "description": "Draw molecular structures, calculate properties, and find molecules similar to aspirin.",
+        "links": [
+          { "label": "Open the SMILES notebook in Colab", "url": "https://colab.research.google.com/drive/1YvMEODjWr6_MGX9k3jQfVe79Lqh25P8W", "download": false }
+        ]
+      },
+      {
+        "title": "Predicting cellular uptake: Interactive ML lab",
+        "description": "Practice preparing data, selecting features, and fitting a linear regression model with pBAE polymer formulation data.",
+        "links": [
+          { "label": "Open the pBAE notebook in Colab", "url": "https://colab.research.google.com/drive/1ugZ1A-kNExLM6tvuwdnn8Lo7b-tMflh9", "download": false },
+          { "label": "Download the ML concepts and pipeline slides (PowerPoint)", "url": "/nexabio-site/workshops/NEXABio_ML_Concepts_and_Pipeline_Feature_Selection.pptx", "download": true },
+          { "label": "Download the pBAE notebook (.ipynb)", "url": "/nexabio-site/workshops/pBAE_30min_Interactive_Lab.ipynb", "download": true }
+        ]
+      }
+    ]
   }
 }

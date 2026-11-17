@@ -44,7 +44,14 @@ export default function Home() {
           <div className="contact-line"><h3>Contact</h3>{program.contactEmail ? <a href={`mailto:${program.contactEmail}`}>{program.contactEmail}</a> : <p>For additional information please contact nexabioutd@gmail.com or yunhui.guo@utdallas.edu.</p>}</div>
         </div></section>
         <section id="resources" className="content-section section-anchor"><div className="container resources-grid">
-          <div><p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p><p className="note">Teaching materials are in preparation. Links will be added as they become available.</p><h3 className="subheading">Student interest poster</h3><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pdf" download>Download the poster (PDF)</a></p></div>
+          <div>
+            <p className="eyebrow section-label">Learning resources</p><h2>Materials to support your training</h2><p>{program.resources.description}</p>
+            {program.resources.materials.map(material => <article key={material.title}>
+              <h3 className="subheading">{material.title}</h3><p>{material.description}</p>
+              {material.links.map(link => <p key={link.url}><a className="text-link" href={link.url} download={link.download || undefined}>{link.label}</a></p>)}
+            </article>)}
+            <h3 className="subheading">Student interest poster</h3><p><a className="text-link" href="/nexabio-site/downloads/NEXABio-student-interest.pdf" download>Download the poster (PDF)</a></p>
+          </div>
         </div></section>
       </main>
       <footer className="site-footer">
