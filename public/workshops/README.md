@@ -17,8 +17,9 @@ the link so students can open them from the public website.
 - `pBAE_30min_Interactive_Lab.ipynb`: the pBAE lab, including saved outputs.
 - `NEXABio_ML_Concepts_and_Pipeline_Feature_Selection.pptx`: the editable slides.
 
-These files are copied unchanged from the supplied workshop materials and are
-served from `/nexabio-site/workshops/` after a successful website deployment.
+The notebook uses student-facing explanations and retains its saved results.
+The slides are the supplied editable deck. These files are served from
+`/nexabio-site/workshops/` after a successful website deployment.
 
 ## Updating materials together
 
